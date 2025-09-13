@@ -12,7 +12,7 @@
 * Status registers : which can read the current status of device
 * Data registers or buffers : to pass data to the device or to get data from the device
 
-by reading or writing this registers OS can controll the device behavior 
+By reading or writing this registers OS can control the device behavior 
 
 
 2. **Internal Implementation:** The device-specific hardware and firmware that implements the actual functionality, which may include:
