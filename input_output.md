@@ -6,8 +6,7 @@
  ### Canonical Devices 
  A canonical device is a conceptual model used in operating systems to illustrate the standard components and interfaces of hardware devices. It consists of two key parts:
 
-1. 
-**Hardware Interface:** The standardized protocol and control registers that allow the operating system to interact with the device. This includes:
+1. **Hardware Interface:** The standardized protocol and control registers that allow the operating system to interact with the device. This includes:
 
 * Command registers :  to tell , the device to perform a certain tasks
 * Status registers : which can read the current status of device
@@ -16,8 +15,7 @@
 by reading or writing this registers OS can controll the device behavior 
 
 
-2. 
-**Internal Implementation:** The device-specific hardware and firmware that implements the actual functionality, which may include:
+2. **Internal Implementation:** The device-specific hardware and firmware that implements the actual functionality, which may include:
 
  * Specialized chips and circuits
  * Device firmware (software embedded in the hardware)
