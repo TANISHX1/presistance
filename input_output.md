@@ -90,3 +90,17 @@ point, the OS is done with the transfer and can proceed with other work. When th
 ![logo](./image_data/image%20copy.png)
  the copying of data is now handled by the DMA controller. Because the CPU is free during that time, the OS
 can do something else, here choosing to run Process 2. Process 2 thus gets to use more CPU before Process 1 runs again.
+
+#### Explicit I/O (also called Port-Mapped I/O)
+
+* Uses a separate, dedicated I/O address space distinct from regular memory addresses.
+* Special CPU instructions (like IN and OUT on x86) are used to communicate with I/O devices.
+* The CPU explicitly specifies the port address to read/write data.
+* Keeps I/O and memory separate, simplifying access control.
+
+#### Memory-Mapped I/O
+
+* I/O devices are mapped into the same address space as the system memory.
+* Devices are accessed using regular memory instructions (like LOAD and STORE).
+* The CPU reads/writes device registers just like it does with normal RAM locations.
+* Allows using the same instructions for both memory and I/O, making programming easier but requires careful address management.
